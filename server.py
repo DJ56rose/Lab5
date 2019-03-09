@@ -3,13 +3,20 @@ import socket
 s = socket.socket()
 
 #bind
+host = socket.gethostname()
+port = 12345
+s.bind((host,port))
 
 #listen
+s.listen(5)
 
-#accept
+while True:
+    # accept
+    c, addr = s.accept()
 
-#read
 
-#write
+    #read
 
-#close
+    #write
+
+    #close
