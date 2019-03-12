@@ -1,0 +1,4 @@
+run 'python server.py' in the server node
+get the ip address of the server
+run 'python client.py *server_IP* *filename'
+watch the magic happen
