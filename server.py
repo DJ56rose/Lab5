@@ -1,18 +1,19 @@
-import socket
+import socket, math as m
 
 server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 #bind
 host = socket.gethostname()
 ip = socket.gethostbyname(host)
-port = 12345
+port = 26210
 server.bind((host,port))
-print(host)
+print(ip)
 #listen
 server.listen(5)
 
 while True:
-    # accept
+    # init & accept
+	dim = 0
 	client, addr = server.accept()
 	
 	# read & create filename
@@ -25,17 +26,18 @@ while True:
 	X = 1024
 	while True:
 		data = client.recv(X)
+		dim += len(data)
 		fn.write(data)
-		print(len(data))
-		if (len(data) < 1024):
-			
-			X = len(data)
-			print("Breaking...")
-			break
+		if (len(data) < X):
+			break	
 
     #write
-	confirm = "Received all " + str(len(data)) + " bytes"
+	confirm = "Received all " + str(dim) + " bytes"
 	tosend = bytearray(confirm,'utf-8')
 	client.send(tosend)
+
+	#confirm
+	print("Finished receiving from " + str(addr))
+
     #close
 	client.close()

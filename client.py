@@ -19,11 +19,9 @@ if len(IPnums) != 4:
 
 # initialize socket
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-port = 12345
-host = socket.gethostname()
-print(host)
+port = 26210
 #connect
-s.connect((host,port))
+s.connect((IP,port))
 filesize = os.path.getsize(filename)
 print("FROM CLIENT: sending "+str(filesize)+" bytes")
 
@@ -47,4 +45,3 @@ while info:
 msg = "FROM SERVER: " + str(s.recv(1024))
 print(msg)
 s.close()
-#print(data)
