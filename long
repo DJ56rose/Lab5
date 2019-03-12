@@ -1,30 +1,27 @@
-To write Internet servers, we use the socket function available in socket module to create a socket object. A socket object is then used to call other functions to setup a socket server.
-
-Now call bind(hostname, port) function to specify a port for your service on the given host.
-
-Next, call the accept method of the returned object. This method waits until a client connects to the port you specified, and then returns a connection object that represents the connection to that client.
-To write Internet servers, we use the socket function available in socket module to create a socket object. A socket object is then used to call other functions to setup a socket server.
-
-Now call bind(hostname, port) function to specify a port for your service on the given host.
-
-Next, call the accept method of the returned object. This method waits until a client connects to the port you specified, and then returns a connection object that represents the connection to that client.
-To write Internet servers, we use the socket function available in socket module to create a socket object. A socket object is then used to call other functions to setup a socket server.
-
-Now call bind(hostname, port) function to specify a port for your service on the given host.
-
-Next, call the accept method of the returned object. This method waits until a client connects to the port you specified, and then returns a connection object that represents the connection to that client.
-To write Internet servers, we use the socket function available in socket module to create a socket object. A socket object is then used to call other functions to setup a socket server.
-
-Now call bind(hostname, port) function to specify a port for your service on the given host.
-
-Next, call the accept method of the returned object. This method waits until a client connects to the port you specified, and then returns a connection object that represents the connection to that client.
-To write Internet servers, we use the socket function available in socket module to create a socket object. A socket object is then used to call other functions to setup a socket server.
-
-Now call bind(hostname, port) function to specify a port for your service on the given host.
-
-Next, call the accept method of the returned object. This method waits until a client connects to the port you specified, and then returns a connection object that represents the connection to that client.
-To write Internet servers, we use the socket function available in socket module to create a socket object. A socket object is then used to call other functions to setup a socket server.
-
-Now call bind(hostname, port) function to specify a port for your service on the given host.
-
-Next, call the accept method of the returned object. This method waits until a client connects to the port you specified, and then returns a connection object that represents the connection to that client.
+ Farming gave rise to the Jiahu culture (7000 to 5800 BC). At Damaidi in Ningxia, 3,172 cliff carvings dating to 6000–5000 BC have been discovered
+, "featuring 8,453 individual characters such as the sun, moon, stars, gods and scenes of hunting or grazing"
+A bronze tomahawk with a blade of meteoric iron excavated near the city of Gaocheng in Shijiazhuang (now Hebei province) has been dated to the 14th century BC. For this reason, authors such as 
+Liana Chua and Mark Elliott have used the term "Iron Age" by convention for the transitional period of c. 500 BC to 100 BC, roughly 
+corresponding to the Warring States period of Chinese historiography
+Excavations that overlap the alleged time period of the Xia indicate a type of culturally similar groupings of chiefdoms. 
+Early markings from this period found on pottery and shells are thought to be ancestral to modern Chinese characters
+Western scholars are often hesitant to associate settlements that are contemporaneous with the Anyang settlement with the Shang dynasty. For example, archaeological 
+findings at Sanxingdui suggest a technologically advanced civilization culturally unlike Anyang. The evidence is inconclusive in proving how 
+far the Shang realm extended from Anyang. The leading hypothesis is that Anyang, ruled by the same Shang in the official history, coexisted and 
+traded with numerous other culturally diverse settlements in the area that is now referred to as China proper
+In 2011, NIST, the US National Institute of Standards and Technology, defined cloud computing as “a
+model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable
+computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly
+provisioned and released with minimal management effort or service provider interaction
+Cloud computing era started in 2006 when Amazon offered the Elastic Cloud Computing (EC2)
+and the Simple Storage Service (S3), the first services provided by Amazon Web Services (AWS).
+Five years later, in 2012, EC2 was used by businesses in 200 countries. S3 has surpassed two trillion
+objects and routinely runs more than 1.1 million peak requests per second. The Elastic MapReduce
+has launched 5.5 million clusters since the start of the service in May 2010 (ZDNet 2013). The range
+of services offered by Cloud Service Providers (CSPs), and the number of cloud users have increased
+dramatically during the last few years.
+The cloud movement is not without skeptics and critics. The critics argue that cloud computing is
+just a marketing ploy, that users may become dependent on proprietary systems, that the failure of a
+large system such as the cloud could have significant consequences for a very large group of users who
+depend on the cloud for their computing and storage needs. Security and privacy are major concerns
+for cloud computing users.
