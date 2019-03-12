@@ -19,7 +19,7 @@ if len(IPnums) != 4:
 
 # initialize socket
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-port = 12346
+port = 12345
 host = socket.gethostname()
 print(host)
 #connect
@@ -30,6 +30,7 @@ print("FROM CLIENT: sending "+str(filesize)+" bytes")
 # send filename
 filename = bytearray(filename,'utf-8')
 s.sendall(filename)
+confirm = s.recv(1024)	# for synchronization
 
 # === loop through file ===
 X = 1024

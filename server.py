@@ -5,7 +5,7 @@ server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 #bind
 host = socket.gethostname()
 ip = socket.gethostbyname(host)
-port = 12346
+port = 12345
 server.bind((host,port))
 print(host)
 #listen
@@ -19,7 +19,8 @@ while True:
 	filename = client.recv(1024)
 	filename = filename.decode('utf-8') + "_server"
 	fn = open(filename,'wb')
-	#print("Just opened stuff...")	
+	client.send(b'\x01\x02\x03\x04')	# for synchron
+
     # read data
 	X = 1024
 	while True:
